@@ -1,0 +1,1 @@
+When an episode is clicked on, display a lightbox with the following episode image, name, season, number, and description.
