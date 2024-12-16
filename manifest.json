@@ -1,0 +1,68 @@
+{
+  "theme_color": "#57007f",
+  "background_color": "#57007f",
+  "icons": [
+    {
+      "purpose": "maskable",
+      "sizes": "512x512",
+      "src": "icon512_maskable.png",
+      "type": "image/png"
+    },
+    {
+      "src": "android/android-launchericon-512-512.png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "android/android-launchericon-192-192.png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "android/android-launchericon-144-144.png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "android/android-launchericon-96-96.png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "android/android-launchericon-72-72.png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "android/android-launchericon-48-48.png",
+      "sizes": "48x48"
+    }
+  ],
+  "orientation": "portrait",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "dir": "auto",
+  "lang": "en-US",
+  "name": "Raewaral.Tube Video Search Engine",
+  "short_name": "Raewaral.Tube",
+  "description": "'tis a humble PWA",
+  "screenshots": [
+    {
+      "src": "extra/Screenshot 2024-12-16 090656.png",
+      "sizes": "449x935",
+      "type": "image/png",
+      "form_factor": "wide",
+      "purpose": "any"
+    },
+    {
+      "src": "extra/Screenshot 2024-12-16 090804.png",
+      "sizes": "452x934",
+      "type": "image/png",
+      "form_factor": "wide",
+      "purpose": "any"
+    },
+    {
+      "src": "extra/Screenshot 2024-12-16 090826.png",
+      "sizes": "450x935",
+      "type": "image/png",
+      "form_factor": "wide",
+      "purpose": "any"
+    }
+  ]
+}
