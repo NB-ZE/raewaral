@@ -8,7 +8,7 @@ self.addEventListener('install', function(event) {
         '/',
         '/index.html',
         '/styles.css',
-        '/script.js',
+        '/apiexample.js',
         '/android/android-launchericon-192-192.png',
         '/android/android-launchericon-512-512.png',
         '/favicon(3).ico',
