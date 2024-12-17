@@ -1,5 +1,6 @@
 let apiURL = 'http://api.tvmaze.com/';
 let epURL = "https://api.tvmaze.com/episodes/";
+let deferredPrompt;   
 
 // load the service worker
 if ('serviceWorker' in navigator) {
@@ -10,7 +11,28 @@ if ('serviceWorker' in navigator) {
       console.log('Service Worker registration failed:', error);
     });
   });
-}                
+}      
+
+window.addEventListener('beforeinstallprompt', (e) => {
+  e.preventDefault();
+  deferredPrompt = e;
+
+  const installButton = document.getElementById('installButton');
+  installButton.style.display = 'block';
+
+  installButton.addEventListener('click', () => {
+    installButton.style.display = 'none';
+    deferredPrompt.prompt();
+    deferredPrompt.userChoice.then((choiceResult) => {
+      if (choiceResult.outcome === 'accepted') {
+        console.log('User accepted the install prompt');
+      } else {
+        console.log('User dismissed the install prompt');
+      }
+      deferredPrompt = null;
+    });
+  });
+});          
 
 // initialize page after HTML loads
 window.onload = function() {
