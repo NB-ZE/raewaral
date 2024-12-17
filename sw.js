@@ -1,4 +1,4 @@
-const version = 'v123';  // change this everytime you update the service worker
+const version = 'v124';  // change this everytime you update the service worker
                           // to force the browser to also update it.
 
 self.addEventListener('install', function(event) {
@@ -6,13 +6,13 @@ self.addEventListener('install', function(event) {
     caches.open('my-cache').then(function(cache) {
       return cache.addAll([
         '/',
-        '/index.html',
-        '/styles.css',
-        '/apiexample.js',
-        '/android/android-launchericon-192-192.png',
-        '/android/android-launchericon-512-512.png',
-        '/favicon(3).ico',
-        '/raewaral.tube.png'
+        'index.html',
+        'style.css',
+        'apiexample.js',
+        'android/android-launchericon-192-192.png',
+        'android/android-launchericon-512-512.png',
+        'favicon(3).ico',
+        'raewaral.tube.png'
       ]);
     })
   );
@@ -33,13 +33,13 @@ const DYNAMIC_CACHE_NAME = 'my-app-dynamic-cache-v1';
 // Files to cache during install
 const STATIC_ASSETS = [
   '/',
-        '/index.html',
-        '/styles.css',
-        '/apiexample.js',
-        '/android/android-launchericon-192-192.png',
-        '/android/android-launchericon-512-512.png',
-        '/favicon(3).ico',
-        '/raewaral.tube.png'
+        'index.html',
+        'style.css',
+        'apiexample.js',
+        'android/android-launchericon-192-192.png',
+        'android/android-launchericon-512-512.png',
+        'favicon(3).ico',
+        'raewaral.tube.png'
 ];
 
 // Install event: Cache static assets
