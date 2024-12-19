@@ -44,24 +44,28 @@
   "description": "'tis a humble PWA",
   "screenshots": [
     {
+      "src": "extra/Screenshot 2024-12-19 101828.png",
+      "sizes": "1920x950",
+      "type": "image/png",
+      "form_factor": "wide",
+      "purpose": "any"
+    },
+    {
       "src": "extra/Screenshot 2024-12-16 090656.png",
       "sizes": "449x935",
       "type": "image/png",
-      "form_factor": "wide",
       "purpose": "any"
     },
     {
       "src": "extra/Screenshot 2024-12-16 090804.png",
       "sizes": "452x934",
       "type": "image/png",
-      "form_factor": "wide",
       "purpose": "any"
     },
     {
       "src": "extra/Screenshot 2024-12-16 090826.png",
       "sizes": "450x935",
       "type": "image/png",
-      "form_factor": "wide",
       "purpose": "any"
     }
   ]
